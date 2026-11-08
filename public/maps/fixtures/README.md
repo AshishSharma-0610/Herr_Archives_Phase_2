@@ -1,0 +1,1 @@
+The synthetic fixture lives in `src/maps/fixtures/` and is imported directly by the map benchmark composition. It is invented geometry used only to test projection, SVG borders, routes, markers and deterministic animation. It must never be labelled or exported as a historical map.

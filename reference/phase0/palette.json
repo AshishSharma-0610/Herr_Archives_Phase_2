@@ -1,0 +1,24 @@
+{
+  "brand": "Herr Archives",
+  "project": "World War One",
+  "status": "Phase 0 review draft",
+  "palette": [
+    {"name": "Sky Blue", "hex": "#63B5D6", "use": "Daylight skies, distant atmosphere, water highlights"},
+    {"name": "River Teal", "hex": "#319C9A", "use": "Rivers, cool environmental accents, selected map fills"},
+    {"name": "Terracotta", "hex": "#C96B50", "use": "Roofs, brick, warm architecture and emphasis"},
+    {"name": "Foliage", "hex": "#6F9959", "use": "Trees, parks, countryside and natural forms"},
+    {"name": "Warm Plaster", "hex": "#F0D8AD", "use": "Sunlit facades, warm stone and interiors"},
+    {"name": "Marigold", "hex": "#E6B74F", "use": "Sunlight, brass, selected focal accents"},
+    {"name": "Slate Blue", "hex": "#537C9B", "use": "Uniforms, shaded architecture and secondary cool forms"},
+    {"name": "Ink Navy", "hex": "#293746", "use": "Primary outlines, deep shadows and key text"},
+    {"name": "Burgundy Accent", "hex": "#8B3A3A", "use": "Chapter ribbons, restrained emphasis and seals"},
+    {"name": "Paper Cream", "hex": "#EFE6D2", "use": "Paper fields, cards and neutral backdrops"}
+  ],
+  "suggested_balance": {
+    "local_environment_colours": 45,
+    "warm_stone_and_paper_neutrals": 25,
+    "cool_secondary_colours": 20,
+    "focal_accents": 10,
+    "note": "Composition guidance, not a fixed pixel quota."
+  }
+}

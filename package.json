@@ -1,0 +1,41 @@
+{
+  "name": "herr-archives-wwi-remotion-foundation",
+  "version": "0.2.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Phase 2 Remotion foundation: architecture, local historical map pipeline, archival asset registry, and deterministic render benchmarks for Herr Archives World War One.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "remotion studio src/index.tsx",
+    "studio": "remotion studio src/index.tsx",
+    "check": "tsc --noEmit && node scripts/check-project.mjs",
+    "map:audit": "node scripts/audit-map-data.mjs",
+    "map:convert": "node scripts/convert-topojson.mjs",
+    "render:map:720": "remotion render src/index.tsx Phase2MapBenchmark720 out/phase2-map-benchmark-720.mp4 --codec=h264 --crf=18 --concurrency=1",
+    "render:map:1080": "remotion render src/index.tsx Phase2MapBenchmark1080 out/phase2-map-benchmark-1080.mp4 --codec=h264 --crf=18 --concurrency=1",
+    "render:assets": "remotion render src/index.tsx Phase2AssetPipelinePreview out/phase2-asset-pipeline-preview.mp4 --codec=h264 --crf=18 --concurrency=1",
+    "render:audio": "remotion render src/index.tsx Phase2AudioSyncBenchmark out/phase2-audio-sync-benchmark.mp4 --codec=h264 --crf=18 --concurrency=1",
+    "benchmark": "node scripts/run-render-benchmarks.mjs",
+    "map:filter:clio": "node scripts/filter-cliopatria.mjs",
+    "map:filter:clio:test": "node scripts/filter-cliopatria.mjs --selfTest true"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/media": "4.0.541",
+    "d3-geo": "3.1.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-simple-maps": "5.0.5",
+    "remotion": "4.0.541",
+    "topojson-client": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.1",
+    "@types/node": "22.20.5",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

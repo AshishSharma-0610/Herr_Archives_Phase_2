@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "name": "Phase2SyntheticMapPipelineFixture",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Zone A", "fill": "#D7A68D", "fixture": true},
+      "geometry": {"type": "Polygon", "coordinates": [[[-12, 44], [-11, 51], [-7, 55], [-2, 54], [0, 49], [-4, 43], [-12, 44]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Zone B", "fill": "#9DB7C7", "fixture": true},
+      "geometry": {"type": "Polygon", "coordinates": [[[-4, 43], [0, 49], [5, 53], [9, 49], [7, 43], [1, 41], [-4, 43]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Zone C", "fill": "#B5C18F", "fixture": true},
+      "geometry": {"type": "Polygon", "coordinates": [[[0, 54], [4, 59], [11, 59], [15, 54], [11, 49], [5, 53], [0, 54]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Zone D", "fill": "#E5C77B", "fixture": true},
+      "geometry": {"type": "Polygon", "coordinates": [[[7, 43], [9, 49], [15, 54], [18, 47], [16, 41], [10, 39], [7, 43]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Zone E", "fill": "#C9B8D2", "fixture": true},
+      "geometry": {"type": "Polygon", "coordinates": [[[-12, 51], [-12, 58], [-7, 61], [1, 60], [4, 59], [0, 54], [-7, 55], [-12, 51]]]}
+    }
+  ]
+}
